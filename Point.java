@@ -2,7 +2,7 @@ public class Point{
     private int x;
     private int y;
 
-    public Point(int x,int y){
+    public Point(int x,int y){ // Comment on peut compter les nombres des objet de type point? Modifier votre code pour ce but.
         this.x = x;
         this.y = y;
     }
