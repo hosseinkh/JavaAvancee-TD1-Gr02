@@ -28,7 +28,7 @@ public class Ring extends Circle{
         s= super.toString() + " et la valeur du rayon externe est " + this.outerRadius;
         return s;
     }
-    public boolean contains(Point p){
+    public boolean contains(Point p){ // Ce n'est pas correcte parce que le radius est different pour la classe mère non?
         return super.contains(p);
     }
     
