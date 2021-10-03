@@ -3,7 +3,9 @@
  */
 //import java.util.*;
 
-public class Circle {
+public class Circle { /* Fait attention la class point est mutable, On a besoin de ecrire le code en manière immutable. pour cela, d'abord changer les attribus de 
+la class point d'etre final private, 2. changer la definition de method translate par rapport etape 1, et 3. utiliser le technique de copie défensive pour eviter des changement,
+*/
     private Point p;
     private int radius;
 
